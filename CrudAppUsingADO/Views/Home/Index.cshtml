@@ -34,9 +34,9 @@
 </p>
 <table class="table table-bordered table-hover table-striped table-responsive">
     <tr>
-        <th>
+        @*<th>
             @Html.DisplayNameFor(model => model.ID)
-        </th>
+        </th>*@
         <th>
             @Html.DisplayNameFor(model => model.Name)
         </th>
@@ -55,9 +55,9 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.ID)
-            </td>
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
